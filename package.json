@@ -1,0 +1,32 @@
+{
+  "name": "neophyte-backend",
+  "version": "1.0.0",
+  "description": "Media sosial untuk rakyat Indonesia. I love Kominfo!",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romikusumabakti/neophyte-backend.git"
+  },
+  "keywords": [
+    "neophyte"
+  ],
+  "author": "Romi Kusuma Bakti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romikusumabakti/neophyte-backend/issues"
+  },
+  "homepage": "https://github.com/romikusumabakti/neophyte-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mariadb": "^3.0.1",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "type": "module"
+}
